@@ -11,9 +11,9 @@ This is Simple System for Student Management System. This is a java and mysql ba
 // sql query for create student table
 
 	CREATE TABLE student(
-   id INT NOT NULL AUTO_INCREMENT,
-   name VARCHAR(50) NOT NULL,
-   age INT NOT NULL,
-   grade  CHAR (25) ,       
-   PRIMARY KEY (id)
-);
+	   id INT NOT NULL AUTO_INCREMENT,
+	   name VARCHAR(50) NOT NULL,
+	   age INT NOT NULL,
+	   grade  CHAR (25) ,       
+	   PRIMARY KEY (id)
+	);
